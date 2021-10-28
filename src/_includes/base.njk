@@ -1,14 +1,16 @@
 ---
-siteName: YourSiteName
+siteName: Portfolio
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{siteName}} | {{ title }}</title>
-  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio: Home</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 <body>
   <header class="site-header">
@@ -18,12 +20,17 @@ siteName: YourSiteName
 
   {{ content | safe }}
 
-  <footer>
-    <div>
-      <p>&copy; {{ pkg.author }}</p>
-      <!-- You can change all of this footer content. -->
-    </div>
-  </footer>
+<footer>
+  <p>&copy; The Creator</p>
+</footer>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+  </body>
 
   <script src="/js/main.js"></script>
 </body>
