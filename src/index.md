@@ -67,9 +67,7 @@ tags: navItem
         <figcaption>Photo by <a href="https://www.pexels.com/@rodnae-prod">RODNAE Productions</a> on <a href="https://www.pexels.com/">Pexels</a>
         </figcaption>
         <div class="button"><a href="gallery/igotu.html">View Work</a></div>
-
       </figure>
-
-    </div>
+   </div>
   </section>
 </main>
