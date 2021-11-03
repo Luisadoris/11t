@@ -66,7 +66,7 @@ tags: navItem
         <img src="/images/pexels-rodnae-productions-4918787.jpg" alt="Two women embracing on a beach.">
         <figcaption>Photo by <a href="https://www.pexels.com/@rodnae-prod">RODNAE Productions</a> on <a href="https://www.pexels.com/">Pexels</a>
         </figcaption>
-        <div class="button"><a href="gallery/igotu.html">View Work</a></div>
+        <div class="button"><a href="/igotu/">View Work</a></div>
       </figure>
    </div>
   </section>
